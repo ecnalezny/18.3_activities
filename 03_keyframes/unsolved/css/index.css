@@ -19,7 +19,7 @@
   height: 20px;
   border-radius: 5px;
   /* add the animation name here for the progress bar */
-  animation: loadBar 4s infinite;
+  animation: loadBar 20s infinite;
   animation-fill-mode: forwards;
 }
 .movingBox {
@@ -58,6 +58,7 @@
   }
   to {
     width: 100%;
+    background-color: cornflowerblue;
   }
 }
 
