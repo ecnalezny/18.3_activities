@@ -14,16 +14,20 @@
 }
 .hoverMe {
   grid-area: hover;
-  background-color: red;
+  background-color: rgb(237, 133, 232);
   color: white;
   width: 150px;
   text-align: center;
   height: 50px;
   /* Add the css property transition here! */
-
+  transition: 0.3s;
 }
 /* active state */
 .hoverMe:hover {
   /* Add your hover state css here. */
-
+  background-color: cornflowerblue;
+  border-radius: 20px;
+  font-size: 30px;
+  transform: scale(1.5, 1.5);
+  transform: rotate(30deg);
 }
